@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Urban</title>
+	<meta charset="utf-8">
+
+	<style>
+		p {font-family: monospace;}
+	</style>
+</head>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/contacts-style.css">
+
+	 <!--==============================header=================================-->	
+	<body class="content">
+		<header>
+			<div class="mytitle">
+				<h1  > <a href="index.html"><hr>Dream Photos</a></h1>
+			</div>
+				<div class="bartable">
+					<div class="nav ">
+						<nav> 	
+							<div> 
+								<div class="">
+									<ul class="navbar ">
+										<li class="hor" ><a class="menua topmen" href="index.html">Home</a></li>
+										<li class="hor dropdown" ><a class="menua topmen dropbtn" href="javascript:void(0)">Portfolio</a>
+											<div class="dropdown-content">
+											  <a href="fashion.html">Fashion</a>
+											  <a href="animals.html">Animals</a>
+											  <a href="landscapes.html">Landscapes</a>
+											  <a href="sport.html">Sport </a>
+											  <a href="portrait.html">Portrait</a>
+											  <a href="urban.html">Urban</a>
+											  
+											</div>
+										</li>
+											
+										<li class="hor active" style="float:right"><a class="menua topmen" href="contact.html">Contact</a></li>
+										<li class="hor" style="float:right"><a class="menua topmen" href="about.html">About</a></li>
+										
+									</ul>
+								</div>	
+							</div>	
+						</nav>
+					</div>
+				</div>
+		</header>	
+			<!------------------------------------------------MAIN PAGE-------------------------------------------------->
+		<div class="container">
+			<form action="action_page.php">
+				<h2><strong> Please complete the form to contact with us</strong></h2>
+				<label for="fname"><hr>First Name</label>
+					<input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+					<label for="lname">Last Name</label>
+					<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+					<label for="country">Country</label>
+						<select id="country" name="country">
+						  <option value="australia">Australia</option>
+						  <option value="canada">Canada</option>
+						  <option value="usa">USA</option>
+						  <option value="greece">GREECE</option>
+						  <option value="germany">GERMANY</option>
+						</select>
+
+					<label for="subject">Subject</label>
+					<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+				<input type="submit" value="Submit">
+			</form>
+		</div>	
+	</body>
+	<!-------------------------------------------------footer----------------------------------------------------->
+		<footer class="bottom second" style="background-color:#f0f0f0;">
+				<div class="foot">
+				<span><b>Copyright © 2019</b>| All rights reserved | Designed by Marios Tsouras</span>
+				</div>
+			</footer>	
+	
+</html>

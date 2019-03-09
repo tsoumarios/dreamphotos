@@ -1,0 +1,86 @@
+
+
+<style>
+ 
+ 	[type='checkbox']{
+   
+ 	margin:10px 0px 15px 0px;		<!--ãéá íá ìïñöïðïéçóù óõãêåêñéìåíá type ðïõ å÷ù ïñéóåé-->
+}
+ .injected-text
+ {
+ 
+   	margin-bottom: -25px;
+  
+  	text-align: center;
+  }
+
+  
+ .box {
+  border-style: solid;
+  
+  	border-color: black;
+
+    	border-width: 5px;
+   
+	
+ .text-align: center;
+  }
+
+ 
+ 	.yellow-box {
+  
+  	background-color: yellow;
+    
+	padding-top: 40px;
+ 
+   	padding-right: 20px;
+  	<!--	ÁÐÏÓÔÁÓÇ ÊÅÉÌÅÍÏÕ ÁÐÏ ÔÏ ÐËÁÉÓÉÏ öéíåôáé êáé åôóé padding: 10px 20px -50px 20px;)-->	
+  	padding-bottom: 20px;
+  
+  	padding-left: 40px;
+   }
+  
+  
+.red-box
+{
+   	background-color: crimson;
+   
+ 	color: #fff;
+    margin-top: 40px;
+
+    	margin-right: 20px;
+    <!-- ÃÉÁ ÏÑÉÓÙ ÁÐÏÓÔÁÓÇ ÁÐ ÅÎÙ ÁÐÏ ÔÏ ÓÔÏÉ×ÅÉÏ-ÐÉÍÁÊÁ -->
+	margin-bottom: 20px;
+    
+	margin-left: 40px;
+	paddind:1.5em;		<!--ãéá íá ïñéóù ìåãåèïò âáóç ôçò ãñáììáôïóåéñáò -->
+	
+  }
+
+  
+.blue-box {
+   
+ 	background-color: blue;
+  
+  	color: #fff; margin-top: 40px;
+  
+  	margin-right: 20px;
+    
+  	margin-bottom: 20px;
+ 
+   	margin-left: 40px;
+  }
+
+
+</style>
+
+<h5 class="injected-text">margin</h5>
+
+
+<div class="box yellow-box">
+ 
+	 <h5 class="box red-box">padding</h5>
+
+  	<h5 class="box blue-box">padding</h5>
+
+</div>
